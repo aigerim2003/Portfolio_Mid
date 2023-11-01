@@ -1,0 +1,235 @@
+ body{
+    background-color: rgb(219,228,238);
+ }
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138,149,155);
+    position: sticky;
+    top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(219,228,238);
+    padding:  8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: rgb(219,228,238);
+    color: rgb(138,149,155);
+    box-shadow: 0 0 10px;
+} 
+#home{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(219,228,238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 840%;
+    background: url("../images/background-blue-mountain-range_53876-104464.jpeg") no-repeat center center/cover;
+}
+#home::before{
+    content: "";
+    top: 0;
+    right: 0;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+    text-align: center;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: auto;
+    color: rgb(110,127,128);
+}
+.main p{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 1000px;
+    height: 100px;
+    border: 2px solid rgb(110,127,128);
+    text-align: center;
+    margin: 0 auto; 
+   
+}
+ #about h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 10px; /* Increase the top and bottom margin to make the background bigger */
+    padding: 15px ;
+    background-color: rgb(138,149,155);
+    color: rgb(219,228,238);
+    
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing:  border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+    height: 840%;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+   
+    width: 500px;
+    height: 500px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(138,149,155);
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+    box-sizing:  border-box;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: url('../images/gray.jpy.jpeg');
+    height: 840%;
+}
+#resume h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 10px; /* Increase the top and bottom margin to make the background bigger */
+    padding: 10px ;
+    color: rgb(138, 149, 155);
+}
+.res{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(138,149,155);
+}
+.res h2{
+    font-size: 3rem;
+}
+.res p{
+    font-size: 1.3rem;
+}
+.res h3{
+    font-size: 2rem;
+}
+.res ul{
+    font-size: 1.5rem;
+}
+#works h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 10px;
+    padding: 15px ;
+    background-color: rgb(138,149,155);
+    color: rgb(219,228,238);
+}
+.myworks{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(138,149,155);
+}
+.box h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    width: 1000px;
+    height: 350px;
+    border: 3px solid rgb(138, 149, 155);
+    text-align: center;
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+#gallery h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 10px;
+    padding: 15px ;
+    color: rgb(138, 149, 155)
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 350px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 20px;
+}
+#contact h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 100px 10px;
+    padding: 15px ;
+    color: rgb(138, 149, 155)
+}
+#contact{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(219,228,238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 840%;
+ 
+}
+.cont h3{
+    top: 50%;
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(138, 149, 155);
+}
+.cont h3 a{
+    color: rgb(128,182,232);
+}
